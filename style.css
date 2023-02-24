@@ -1,0 +1,26 @@
+body{
+    text-align: center;
+}
+canvas{
+    border-style: dashed;
+    border-color: rgb(224, 68, 68);
+    animation-name: abc;
+    animation-duration: 4s;
+    animation-iteration-count: infinite
+}
+
+#filter_button {
+    font-size: 30px;
+}
+#snapshot:hover{
+    background-color: rgb(74, 68, 255);
+}
+canvas{
+animation-name: animation1;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+@keyframes animation1{
+    from{box-shadow: 1px 1px 38px rgb(255, 41, 77);}
+    to{box-shadow: 1px 1px 38px rgb(214, 103, 255);}
+}
